@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glint — light-up puzzles you can feel</title>
+<meta name="description" content="A light-up logic puzzle you can feel. Place lamps to light every square, with crafted haptics for every move. A fresh board daily; hand any puzzle to a friend by QR. No ads, works offline.">
+<style>
+  :root { --bg:#15110B; --surface:#241D14; --amber:#F6A823; --glow:#FBBF24; --ink:#F4ECDD; --muted:#B0A48E; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.65; }
+  .wrap { max-width:680px; margin:0 auto; padding:72px 24px 56px; }
+  .lamp { width:84px; height:84px; border-radius:20px; background:var(--amber); margin:0 auto 28px; box-shadow:0 0 56px rgba(251,191,36,.55); position:relative; }
+  .lamp::after { content:""; position:absolute; inset:26px; border-radius:11px; background:rgba(255,255,255,.22); }
+  h1 { font-size:38px; font-weight:700; letter-spacing:-.5px; text-align:center; }
+  .lede { text-align:center; color:var(--muted); font-size:19px; margin:14px auto 30px; max-width:30ch; }
+  .cta { display:block; width:max-content; margin:0 auto; background:var(--amber); color:#231a08; font-weight:600; padding:14px 32px; border-radius:14px; text-decoration:none; font-size:17px; }
+  section { margin-top:56px; }
+  h2 { font-size:15px; letter-spacing:.06em; text-transform:uppercase; color:var(--amber); margin-bottom:10px; }
+  p { font-size:17px; }
+  p + p { margin-top:14px; }
+  .rule { color:var(--muted); }
+  hr { border:0; border-top:1px solid rgba(255,255,255,.08); margin:48px 0; }
+  footer { text-align:center; color:var(--muted); font-size:14px; margin-top:56px; }
+  footer a { color:var(--amber); text-decoration:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="lamp"></div>
+  <h1>You don't look at Glint. You feel it.</h1>
+  <p class="lede">A light-up logic puzzle with a touch you can learn by hand.</p>
+  <a class="cta" href="#">Get Glint on the App Store</a>
+
+  <section>
+    <h2>The whole rule, in one breath</h2>
+    <p class="rule">Drop a lamp on an open square and light pours down its row and column until a wall stops it. Light every square, never let two lamps see each other, and give each numbered wall exactly the lamps it asks for. One fair answer, every time — no guessing.</p>
+  </section>
+
+  <section>
+    <h2>The part you feel</h2>
+    <p>A lamp lands with a crisp tap. Light spilling across the grid has its own soft ripple. A clue clicking shut feels nothing like two lamps flaring into conflict — a sharp buzz you'll sense before you even look. Solve the board and it blooms under your fingertips.</p>
+  </section>
+
+  <section>
+    <h2>Today's board, and a friend's</h2>
+    <p>One fresh puzzle a day, the same for everyone, gentle on Monday and tight by the weekend. When a board feels good, fold it into a QR code and a link — a friend scans it and plays the exact same puzzle. No account, no server, nothing between you and the challenge.</p>
+  </section>
+
+  <section>
+    <h2>Free to play, yours to keep</h2>
+    <p>The daily and the first two packs are free for good. One optional unlock — $3.99, paid once, never a subscription — opens every pack, the daily archive, an endless practice mode, and extra haptic textures and themes. No ads ever interrupt you, and the whole game runs on a plane with no signal.</p>
+  </section>
+
+  <hr>
+  <p style="text-align:center;font-size:20px;">Tap. Feel it light.</p>
+
+  <footer>
+    <p>© 2026 Ilia Filiaev · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></p>
+  </footer>
+</div>
+</body>
+</html>
